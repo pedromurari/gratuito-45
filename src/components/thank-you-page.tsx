@@ -32,7 +32,7 @@ export function ThankYouPage() {
             🎉 <span className="text-primary">Parabéns{primeiroNome ? `, ${primeiroNome}` : ""}</span> pelo seu <span className="text-primary">cadastro!</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Você garantiu sua vaga no nosso <span className="text-primary font-semibold">Curso Gratuito!</span> O evento será nos dias <span className="text-primary font-semibold">18, 19 e 20 de Agosto.</span>
+            Você garantiu sua vaga no nosso <span className="text-primary font-semibold">Curso Gratuito!</span> O evento será nos dias <span className="text-primary font-semibold">15, 16 e 17 de Setembro.</span>
           </p>
         </div>
 
