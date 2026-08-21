@@ -20,7 +20,7 @@ export function ThankYouPage() {
     }
   }, []);
 
-  const whatsappLink = "https://chat.whatsapp.com/PENDENTE_GRUPO_VIP_45";
+  const whatsappLink = "https://chat.whatsapp.com/Fc4fwSt0p5t243DeUUEhSt";
 
   return (
     <div className="min-h-screen bg-background">
