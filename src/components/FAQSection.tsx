@@ -27,7 +27,7 @@ const FAQSection = () => {
     },
     {
       question: "Quanto tempo dura o curso?",
-      answer: "O curso acontece em 3 dias consecutivos (15, 16 e 17 de setembro), sempre às 20h. Cada aula tem duração aproximada de 2 horas, totalizando cerca de 6 horas de conteúdo exclusivo."
+      answer: "O curso acontece em 3 dias consecutivos (29 e 30 de setembro e 01 de outubro), sempre às 20h. Cada aula tem duração aproximada de 2 horas, totalizando cerca de 6 horas de conteúdo exclusivo."
     }
   ];
 

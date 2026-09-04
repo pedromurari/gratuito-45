@@ -4,13 +4,13 @@ const DAY_NAMES = ["DOM", "SEG", "TER", "QUA", "QUI", "SEX", "SÁB"];
 
 // Julho 2026: começa na quarta-feira (índice 3)
 const MES_2026 = {
-  month: "Setembro",
+  month: "Outubro",
   year: 2026,
-  firstDayOfWeek: 2,
-  totalDays: 30,
+  firstDayOfWeek: 4,
+  totalDays: 31,
 };
 
-const COURSE_DAYS = new Set([15, 16, 17]);
+const COURSE_DAYS = new Set([1]);
 
 const CalendarDay: React.FC<{ day: number | string; isHeader?: boolean; isCourseDay?: boolean }> = ({
   day,
@@ -91,9 +91,9 @@ const CourseCalendarSection = () => {
               Datas das aulas
             </p>
             {[
-              { dia: "15", mes: "Setembro", diaSemana: "Terça-feira", aula: "Aula 01" },
-              { dia: "16", mes: "Setembro", diaSemana: "Quarta-feira", aula: "Aula 02" },
-              { dia: "17", mes: "Setembro", diaSemana: "Quinta-feira", aula: "Aula 03" },
+              { dia: "29", mes: "Setembro", diaSemana: "Terça-feira", aula: "Aula 01" },
+              { dia: "30", mes: "Setembro", diaSemana: "Quarta-feira", aula: "Aula 02" },
+              { dia: "01", mes: "Outubro", diaSemana: "Quinta-feira", aula: "Aula 03" },
             ].map(({ dia, mes, diaSemana, aula }) => (
               <div
                 key={`${mes}-${dia}`}
